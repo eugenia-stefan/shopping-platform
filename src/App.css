@@ -13,20 +13,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +22,36 @@
     transform: rotate(360deg);
   }
 }
+
+/* .navbar--title {
+  font-family: "Splash", cursive;
+}
+
+.nav--list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 25px;
+  background-color: hsl(220, 13%, 18%);
+  color: white;
+  min-width: 100vh;
+  padding-left: 70px;
+}
+
+.nav--li-elem {
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+
+/* 
+.body--all {
+  display: flex;
+  padding: 60px;
+} */
