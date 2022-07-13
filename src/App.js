@@ -1,15 +1,15 @@
+import { Link } from "react-router-dom";
 import "./App.css";
 import Body from "./Components/Body";
 import Navbar from "./Components/Navbar";
+import Auth from "./Components/Auth";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Navbar />
-      </header>
+    <>
+      <Navbar />
       <Body />
-    </div>
+    </>
   );
 }
 
