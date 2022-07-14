@@ -30,7 +30,9 @@ export default function Body() {
                 type="button"
                 className="btn btn-lg btn-secondary fw-bold border-white bg-black"
               >
-                Get started
+                <a className="white" href="/sign-up">
+                  Get started
+                </a>
               </button>
             </div>
           </div>
