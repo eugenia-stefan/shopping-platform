@@ -4,7 +4,7 @@ import register from "../img/register.jpg";
 
 export default function Registration() {
   return (
-    <body>
+    <>
       <Navbar />
       <div className="vh-100">
         <div className="container h-100">
@@ -27,7 +27,10 @@ export default function Registration() {
                               id="form3Example1c"
                               className="form-control"
                             />
-                            <label className="form-label" for="form3Example1c">
+                            <label
+                              className="form-label"
+                              htmlFor="form3Example1c"
+                            >
                               Your Name
                             </label>
                           </div>
@@ -121,6 +124,6 @@ export default function Registration() {
           </div>
         </div>
       </div>
-    </body>
+    </>
   );
 }
