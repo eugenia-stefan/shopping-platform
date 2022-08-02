@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "./Navbar";
-import register from "../img/register.jpg";
+import details from "../img/details.png";
 
-export default function Registration() {
+export default function Details() {
   return (
     <>
-      <Navbar />
+      <Navbar />;
       <div className="vh-100">
         <div className="container h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">
@@ -15,7 +15,7 @@ export default function Registration() {
                   <div className="row justify-content-center">
                     <div className="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
                       <p className="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">
-                        Sign up
+                        Set your shop details
                       </p>
 
                       <form className="mx-1 mx-md-4">
@@ -31,7 +31,7 @@ export default function Registration() {
                               className="form-label"
                               htmlFor="form3Example1c"
                             >
-                              Your Name
+                              Shop Name{" "}
                             </label>
                           </div>
                         </div>
@@ -39,7 +39,7 @@ export default function Registration() {
                         <div className="d-flex flex-row align-items-center mb-4">
                           <i className="fas fa-envelope fa-lg me-3 fa-fw"></i>
                           <div className="form-floating flex-fill mb-0">
-                            <input
+                            <textarea
                               type="email"
                               id="form3Example3c"
                               className="form-control"
@@ -48,7 +48,7 @@ export default function Registration() {
                               className="form-label"
                               htmlFor="form3Example3c"
                             >
-                              Your Email
+                              Shop Description
                             </label>
                           </div>
                         </div>
@@ -65,43 +65,9 @@ export default function Registration() {
                               className="form-label"
                               htmlFor="form3Example4c"
                             >
-                              Password
+                              Shop Url
                             </label>
                           </div>
-                        </div>
-
-                        <div className="d-flex flex-row align-items-center mb-4">
-                          <i className="fas fa-key fa-lg me-3 fa-fw"></i>
-                          <div className="form-floating flex-fill mb-0">
-                            <input
-                              type="password"
-                              id="form3Example4cd"
-                              className="form-control"
-                            />
-                            <label
-                              className="form-label"
-                              htmlFor="form3Example4cd"
-                            >
-                              Repeat your password
-                            </label>
-                          </div>
-                        </div>
-
-                        <div className="form-check d-flex justify-content-center mb-5">
-                          <label
-                            className="form-check-label"
-                            htmlFor="form2Example3"
-                          >
-                            {" "}
-                            <input
-                              className="form-check-input me-2"
-                              type="checkbox"
-                              value=""
-                              id="form2Example3c"
-                            />
-                            I agree all statements in{" "}
-                            <a href="#!">Terms of service</a>
-                          </label>
                         </div>
 
                         <div className="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
@@ -109,13 +75,13 @@ export default function Registration() {
                             type="button"
                             className="btn btn-primary btn-lg"
                           >
-                            Register
+                            Save
                           </button>
                         </div>
                       </form>
                     </div>
                     <div className="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
-                      <img src={register} className="img-fluid" alt="" />
+                      <img src={details} className="img-fluid" alt="" />
                     </div>
                   </div>
                 </div>
